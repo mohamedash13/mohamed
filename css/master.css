@@ -199,6 +199,7 @@ a:hover {
     }
     .prog{
         height: 7vh;
+        padding: 30px;
     }
     .prof{
         display: flex;
