@@ -114,6 +114,7 @@ a:hover {
     border: 10px solid var(--backgroundColor);
     border-left-color: #ddd;
     transform: translateX(-40%);
+    padding: 30px;
 }
 #circ{
     border-left-color: var(--backgroundColor);
