@@ -7,7 +7,7 @@ let cont = {
    social:{
       face:" mohamedashraf",
       insta:"  mohamzdashraf",
-      twitter:"  mohamed11ashraf",
+      twitter:"  mohamed",
    },
    contact:{
       email:"mohamedashraf207777@gmail.com",
