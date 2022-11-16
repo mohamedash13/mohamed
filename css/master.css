@@ -87,7 +87,7 @@ a:hover {
 .h-email,
 .h-home {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     margin-right: 20%;
 }
 .h-home {
@@ -97,7 +97,6 @@ a:hover {
 .street{
     text-indent: 20px;
     text-transform: lowercase;
-    transform: translateY(-50%);
 }
 .skills{
     display: flex;
@@ -150,6 +149,9 @@ a:hover {
         justify-content: space-between;
         align-items: flex-start;
     }
+    .prog{
+        height: 7vh;
+    }
 }
 @media (min-width: 576px) {
     .cont{
@@ -174,6 +176,9 @@ a:hover {
     .skills {
         height: 40vh;
     }
+    .prog{
+        height: 5vh;
+    }
     .prof{
         display: flex;
         flex-direction: column-reverse;
@@ -189,7 +194,9 @@ a:hover {
         border-top-right-radius: 100%;
         border-bottom-right-radius: 13%;
     }
-
+    .prog{
+        height: 7vh;
+    }
     .prof{
         display: flex;
         flex-direction: column-reverse;
@@ -212,6 +219,9 @@ a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .prog{
+        height: 10vh;
     }
     .skills {
         height: 20vh;
