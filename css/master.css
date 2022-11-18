@@ -111,16 +111,32 @@ a:hover {
     align-items: center;
     border-radius: 50%;
     height: 10vh;
-    border: 10px solid var(--backgroundColor);
-    border-left-color: #ddd;
+    border: 5px solid var(--backgroundColor);
     transform: translateX(-40%);
     padding: 30px;
 }
-#circ{
-    border-left-color: var(--backgroundColor);
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 7vh;
 }
-#circ2{
-    border-bottom-color: #ddd;
+h4 {
+    color: var(--backgroundColor);
+}
+.but{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.rate {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 @media (max-width: 576px) {
     .cont{
@@ -131,19 +147,20 @@ a:hover {
     }
     .left{
         width: 99%;
+        height: 112vh;
     }
     .name {
         height: 26vh;
         width: 99%;
     }
     a{
-        margin-left: 2%;
+        font-size: 14px;
     }
     .skills{
         height: 40vh;
     }
     .contact {
-        height: 20vh;
+        height: 30vh;
         display: flex;
         margin-top: -50%;
         flex-direction: column;
@@ -152,7 +169,10 @@ a:hover {
     }
     .prog{
         height: 7vh;
-        padding: 30px;
+        padding: 28px;
+    }
+    .like {
+        transform: translateY(-80%);
     }
 }
 @media (min-width: 576px) {
@@ -169,7 +189,7 @@ a:hover {
         height: 32vh;
     }
     .contact {
-        height: 20vh;
+        height: 30vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -180,7 +200,7 @@ a:hover {
     }
     .prog{
         height: 7vh;
-        padding: 30px;
+        padding: 28px;
     }
     .prof{
         display: flex;
@@ -199,7 +219,6 @@ a:hover {
     }
     .prog{
         height: 7vh;
-        padding: 30px;
     }
     .prof{
         display: flex;
