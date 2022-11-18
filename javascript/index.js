@@ -30,4 +30,16 @@ $("#home-id").append(cont.contact.home);
 $("#circ").append(cont.program.html);
 $("#circ1").append(cont.program.css);
 $("#circ2").append(cont.program.java);
+  let result= 0;
+   $("#but").click(function () {
+      result = 1;
+      $(".result").text(result)
+    $("#on1").css("color","#116d9b")
+   });
+   $("#but").dblclick(function () {
+      result = 0;
+      $(".result").text(result)
+      $("#on1").css("color","black")
+   });
+
 
