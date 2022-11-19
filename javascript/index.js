@@ -5,9 +5,9 @@ let cont = {
       symb:"<>",
    },
    social:{
-      face:" mohamedashraf",
-      insta:"  mohamzdashraf",
-      twitter:"  mohamed",
+      face:"   mohamedashraf",
+      insta:"    mohamzdashraf",
+      twitter:"  mohaed11",
    },
    contact:{
       email:"mohamedashraf207777@gmail.com",
@@ -30,16 +30,21 @@ $("#home-id").append(cont.contact.home);
 $("#circ").append(cont.program.html);
 $("#circ1").append(cont.program.css);
 $("#circ2").append(cont.program.java);
-  let result= 0;
+   let result= 0;
    $("#but").click(function () {
       result = 1;
       $(".result").text(result)
     $("#on1").css("color","#116d9b")
+    $("#false").css("display","none")
+    $("#true").css("display","inherit")
    });
    $("#but").dblclick(function () {
       result = 0;
       $(".result").text(result)
       $("#on1").css("color","black")
+      $("#false").css("display","inherit")
+      $("#true").css("display","none")
    });
+
 
 
