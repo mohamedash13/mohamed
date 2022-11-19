@@ -35,11 +35,15 @@ $("#circ2").append(cont.program.java);
       result = 1;
       $(".result").text(result)
     $("#on1").css("color","#116d9b")
+    $("#false").css("display","none")
+    $("#true").css("display","inherit")
    });
    $("#but").dblclick(function () {
       result = 0;
       $(".result").text(result)
       $("#on1").css("color","black")
+      $("#false").css("display","inherit")
+      $("#true").css("display","none")
    });
 
 
